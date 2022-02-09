@@ -7,7 +7,7 @@
 # Requires: newtmitch/sonar-scanner:3.3.0-alpine
 # authors:  development@minddoc.com
 # ------------------------------------------------------
-FROM newtmitch/sonar-scanner:latest
+FROM sonarsource/sonar-scanner-cli:latest
 LABEL maintainer="development@minddoc.com"
 
 RUN npm install --silent --save-dev -g typescript@4.5.5
