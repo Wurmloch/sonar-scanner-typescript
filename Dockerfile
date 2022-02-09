@@ -10,5 +10,5 @@
 FROM newtmitch/sonar-scanner:latest
 LABEL maintainer="development@minddoc.com"
 
-RUN npm install --silent --save-dev -g typescript@4
+RUN npm install --silent --save-dev -g typescript@4.5.5
 ENV NODE_PATH "/usr/lib/node_modules/"
